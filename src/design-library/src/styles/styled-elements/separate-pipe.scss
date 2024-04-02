@@ -1,0 +1,7 @@
+@import '../colors/borders.scss';
+
+.separate-pipe {
+  border-left: 1px solid $border-ui-color;
+  margin: 0 8px;
+  height: 18px;
+}

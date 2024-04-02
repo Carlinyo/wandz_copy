@@ -1,0 +1,65 @@
+$txt-primary: #131f3c !default;
+$txt-inverted: #ffffff !default;
+$txt-secondary: #636c86 !default;
+$txt-disabled: #b6bac6 !default;
+$txt-placeholder: #636c86 !default;
+$txt-link: #1971d8 !default;
+$txt-link-hover: #0d3c73 !default;
+$txt-banana-yellow: #fae189 !default;
+$txt-text-basic: #10111b !default;
+$txt-white: #ffffff !default;
+$txt-disable-gray: #9fa0a8 !default;
+.txt-primary {
+  color: $txt-primary;
+
+  &::placeholder {
+    color: $txt-placeholder;
+  }
+}
+
+.txt-placeholder {
+  color: $txt-placeholder;
+}
+
+.txt-inverted {
+  color: $txt-inverted;
+
+  &::placeholder {
+    color: $txt-placeholder;
+  }
+}
+
+.txt-secondary {
+  color: $txt-secondary;
+
+  &::placeholder {
+    color: $txt-placeholder;
+  }
+}
+
+.txt-disabled {
+  color: $txt-disabled;
+}
+
+.txt-disable-grey {
+  color: $txt-disable-gray;
+}
+
+.txt-link {
+  color: $txt-link;
+  cursor: pointer;
+
+  &:hover {
+    color: $txt-link-hover;
+  }
+}
+
+:export {
+  txtPrimary: $txt-primary;
+  txtLink: $txt-link;
+  txtDisabled: $txt-disabled;
+  txtLinkHover: $txt-link-hover;
+  txtSecondary: $txt-secondary;
+  txtDisableGrey: $txt-disable-gray;
+  txtInverted: $txt-inverted;
+}

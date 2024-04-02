@@ -1,0 +1,81 @@
+$font-family: Figtree;
+
+/* Heading/H1 */
+.main-heading {
+  font-family: $font-family;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Heading/H2 - 22px semibold */
+.secondary-title {
+  font-family: $font-family;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+/* Heading/H3 - 18px semibold */
+.container-title {
+  font-family: $font-family;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Heading/H4 - 14px semibold */
+.bold-title {
+  font-family: $font-family;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Heading/H5 - 14px regular */
+.regular-title {
+  font-family: $font-family;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Heading/H6 - 12px regular */
+.small-label-title {
+  font-family: $font-family;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Heading/H7 - 12px regular */
+.overline-title {
+  font-family: $font-family;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Heading/H8 - 12px Overline Title (CAPITALIZED) */
+.overline-title {
+  font-family: Figtree;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}

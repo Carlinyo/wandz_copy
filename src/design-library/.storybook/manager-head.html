@@ -1,0 +1,48 @@
+<style>
+  /* selector for menu icons */
+  #storybook-explorer-menu svg {
+    color: #10111b;
+    margin: 1px 5px;
+  }
+
+  /* selector for menu items */
+  #storybook-explorer-menu a.sidebar-item,
+  #storybook-explorer-menu button.sidebar-item {
+    font-size: 10px;
+    line-height: 14px;
+    font-family: Figtree;
+  }
+
+  /* selector for menu item's parent arrow */
+  #storybook-explorer-menu button.sidebar-item span:first-of-type {
+    margin-top: 4px;
+  }
+
+  /* selector for selected(highlighted) menu item*/
+  #storybook-explorer-menu a.sidebar-item[data-selected='true'] {
+    color: #10111b;
+  }
+
+  /* selector for expanded menu item*/
+  #storybook-explorer-menu button[data-action='collapse-root']:focus {
+    color: #10111b;
+  }
+
+  /* selector for expanded menu item*/
+  #storybook-explorer-menu button.sidebar-item[aria-expanded='true'] {
+    background-color: #fff5d8;
+  }
+
+  /* selector for root category title */
+  #storybook-explorer-menu .sidebar-subheading[data-nodetype='root'] {
+    color: #10111b;
+    font-size: 14px;
+    font-family: 'Figtree', sans-serif;
+    letter-spacing: normal;
+  }
+
+  html,
+  body {
+    font-family: 'Figtree', sans-serif;
+  }
+</style>

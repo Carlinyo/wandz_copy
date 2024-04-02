@@ -1,0 +1,54 @@
+$semantic-primary-brand: #5d48ea !default;
+$semantic-positive: #138b5d !default;
+$semantic-positive-dark: #076f47 !default;
+$semantic-positive-light: #c5f7d3 !default;
+$semantic-negative: #bb1a1a !default;
+$semantic-negative-hover: #a91818 !default;
+$semantic-negative-light: #f9d1d1 !default;
+$semantic-warning: #ff8e4f !default;
+$semantic-info-icon-new: #d8dbe0 !default;
+$semantic-info-icon: #131f3c !default;
+$semantic-info: #1971d8 !default;
+$semantic-info-dark: #0d3c73 !default;
+
+.semantic-primary-brand {
+  color: $semantic-primary-brand;
+}
+
+.semantic-positive {
+  color: $semantic-positive;
+}
+
+.semantic-positive-light {
+  color: $semantic-positive-light;
+}
+
+.semantic-negative {
+  color: $semantic-negative;
+
+  &:hover {
+    color: $semantic-negative-hover;
+  }
+}
+
+.semantic-negative-light {
+  color: $semantic-negative-light;
+}
+
+.semantic-warning {
+  color: $semantic-warning;
+}
+
+.semantic-info-icon {
+  color: $semantic-info-icon;
+}
+
+.semantic-info {
+  color: $semantic-info;
+}
+
+:export {
+  semanticPositive: $semantic-positive;
+  semanticNegative: $semantic-negative;
+  semanticPrimaryBrand: $semantic-primary-brand;
+}

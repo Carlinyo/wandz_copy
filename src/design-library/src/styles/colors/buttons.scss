@@ -1,0 +1,33 @@
+$btn-primary: #5a2ae4 !default;
+$btn-primary-hover: #4318be !default;
+$btn-secondary: #ffffff !default;
+$btn-secondary-hover: #f3f5f8 !default;
+$btn-secondary-border: #c6cbd3 !default;
+$btn-danger: #bb1a1a !default;
+$btn-danger-hover: #a91818 !default;
+$btn-disabled: #e9ebee !default;
+
+.btn-primary {
+  background-color: $btn-primary;
+
+  &:hover {
+    background-color: $btn-primary-hover;
+  }
+}
+
+.btn-secondary {
+  background-color: $btn-secondary;
+  border: 1px solid $btn-secondary-border;
+
+  &:hover {
+    background-color: $btn-secondary-hover;
+  }
+}
+
+.btn-danger {
+  background-color: $btn-danger;
+
+  &:hover {
+    background-color: $btn-danger-hover;
+  }
+}

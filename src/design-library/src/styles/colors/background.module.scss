@@ -1,0 +1,77 @@
+$bg-primary: #f3f5f8 !default;
+$bg-secondary: #ffffff !default;
+$bg-tertiary: #131f3c !default;
+$bg-element: #ffffff !default;
+$bg-element-hover: #f3f5f8 !default;
+$bg-secondary-element: #f9fafb !default;
+$bg-element-active: #e9ebee !default;
+$bg-shapes: #c6cbd3 !default;
+$bg-disabled: #f3f5f8 !default;
+$bg-skeleton: #e9ebee !default;
+$bg-overlay: rgba(19, 31, 60, 0.8) !default;
+$bg-overlay-50: rgba(19, 31, 60, 0.5) !default;
+$bg-overlay-light: rgba(19, 31, 60, 0.4) !default;
+$bg-shadow-default: rgba(97, 142, 199, 0.08) !default;
+$bg-shadow-bold: rgba(97, 142, 199, 0.12) !default;
+
+.bg-primary {
+  background-color: $bg-primary;
+}
+
+.bg-secondary {
+  background-color: $bg-secondary;
+}
+
+.bg-tertiary {
+  background-color: $bg-tertiary;
+}
+
+.bg-element {
+  background-color: $bg-element;
+
+  &:hover {
+    background-color: $bg-element-hover;
+  }
+
+  &:active {
+    background-color: $bg-element-active;
+  }
+}
+
+.bg-secondary-element {
+  background-color: $bg-secondary-element;
+}
+
+.bg-shapes {
+  background-color: $bg-shapes;
+}
+
+.bg-disabled {
+  background-color: $bg-disabled;
+}
+
+.bg-overlay {
+  background-color: $bg-overlay;
+}
+
+.bg-shadow-default {
+  background-color: $bg-shadow-default;
+}
+
+.bg-shadow-bold {
+  background-color: $bg-shadow-bold;
+}
+
+.bg-skeleton {
+  background-color: $bg-skeleton;
+}
+
+:export {
+  BackgroundPrimary: $bg-primary;
+  BackgroundTertiary: $bg-tertiary;
+  BackgroundSecondary: $bg-secondary;
+  bgDisabled: $bg-disabled;
+  bgElement: $bg-element;
+  bgElementActive: $bg-element-active;
+  bgShapes: $bg-shapes;
+}

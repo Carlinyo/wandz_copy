@@ -1,0 +1,44 @@
+@import '../colors/borders.scss';
+
+$border: 1px solid $border-ui-color !default;
+$border-hover: 1px solid $border-ui-hover-color !default;
+$border-layout: 1px solid $border-layout-color !default;
+$border-ui-selected: 1px solid $border-ui-selected-color !default;
+$border-focus: 1px solid $border-focus-color !default;
+$border-error: 1px solid $border-error-color !default;
+
+.border {
+  border: $border;
+
+  &:not(.selected):not(.disabled):hover {
+    border: $border-hover;
+  }
+
+  &:focus {
+    border: $border-focus;
+  }
+
+  &.selected {
+    border: $border-ui-selected;
+  }
+}
+
+.border-no-hover {
+  border: $border;
+}
+
+.border-layout {
+  border: $border-layout;
+}
+
+.border-error {
+  border: $border-error;
+
+  &:hover {
+    border-color: $border-error-hover-color;
+  }
+}
+
+.border-focus {
+  border: $border-focus;
+}

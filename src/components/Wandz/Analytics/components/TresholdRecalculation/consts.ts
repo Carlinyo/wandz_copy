@@ -1,0 +1,21 @@
+import { TRESHOLD_RECALCULATION_ACTIONS } from '@/design-library/src/types/enums/TresholdRecalculation';
+
+export const TEXTS = {
+  BUTTON_TEXT: 'Re-calculate',
+  CANCEL: 'cancel',
+  BACK_TO_DEFAULT: 'Back to',
+  OR: '-OR-',
+  SAVE_CHANGES: 'Save Changes',
+  SNACKBAR_TEXT: 'Changes have been saved successfully',
+  RULES: {
+    BUTTON_DEFAULT: [TRESHOLD_RECALCULATION_ACTIONS.DEFAULT, TRESHOLD_RECALCULATION_ACTIONS.CALCULATED],
+    HAS_BACK: [TRESHOLD_RECALCULATION_ACTIONS.CALCULATING, TRESHOLD_RECALCULATION_ACTIONS.CHANGED],
+    CALCULATED: [TRESHOLD_RECALCULATION_ACTIONS.CALCULATED],
+  },
+};
+
+export const INPUT_CONFIG = {
+  STEP: 0.05,
+  MIN: 0.5,
+  MAX: 0.9,
+};

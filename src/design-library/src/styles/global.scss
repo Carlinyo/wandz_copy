@@ -1,0 +1,30 @@
+@import './abstracts/mixins';
+@import './borders/borders';
+@import './colors/background.module';
+@import './colors/borders';
+@import './colors/buttons';
+@import './colors/data.module';
+@import './colors/semantic.module';
+@import './colors/text.module';
+@import './corners/corners';
+@import './shadows/shadows';
+@import './typography/body';
+@import './typography/titles';
+@import './containers/containers';
+@import './styled-elements/separate-pipe';
+
+@import 'v-calendar/style.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'floating-vue/dist/style.css';
+
+body {
+  background-color: $bg-primary;
+  font-size: 14px;
+  font-family: Figtree;
+  font-weight: normal;
+  color: $txt-primary;
+  overflow: hidden;
+}

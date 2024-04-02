@@ -1,0 +1,10 @@
+$default-shadow: 2px 2px 8px 0px #618ec714 !default;
+$bold-shadow: 2px 2px 8px 0px #618ec71f !default;
+
+.shadow {
+  box-shadow: $default-shadow;
+}
+
+.shadow-bold {
+  box-shadow: $bold-shadow;
+}

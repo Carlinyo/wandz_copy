@@ -1,0 +1,35 @@
+$border-radius-no-radius: 0px !default;
+$border-radius-tiny: 2px !default;
+$border-radius-small: 4px !default;
+$border-radius-medium: 8px !default;
+$border-radius-large: 16px !default;
+$border-radius-full: 100% !default;
+$border-radius-rounded: 999px !default;
+
+.border-radius-no-radius {
+  border-radius: $border-radius-no-radius;
+}
+
+.border-radius-tiny {
+  border-radius: $border-radius-tiny;
+}
+
+.border-radius-small {
+  border-radius: $border-radius-small;
+}
+
+.border-radius-medium {
+  border-radius: $border-radius-medium;
+}
+
+.border-radius-large {
+  border-radius: $border-radius-large;
+}
+
+.border-radius-full {
+  border-radius: $border-radius-full;
+}
+
+.border-radius-rounded {
+  border-radius: $border-radius-rounded;
+}

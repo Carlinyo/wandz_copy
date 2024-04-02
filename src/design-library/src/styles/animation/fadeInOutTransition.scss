@@ -1,0 +1,10 @@
+.fadeInOut-enter-active {
+  transition: opacity 350ms cubic-bezier(0, 0.69, 0.47, 1);
+}
+.fadeInOut-leave-active {
+  transition: opacity 350ms cubic-bezier(0.77, 0.16, 0.97, 0.7);
+}
+.fadeInOut-enter,
+.fadeInOut-leave-to {
+  opacity: 0;
+}

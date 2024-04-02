@@ -1,0 +1,16 @@
+.slideInLeft-enter-active,
+.slideInRight-enter-active {
+  transition: transform 350ms cubic-bezier(0, 0.69, 0.47, 1);
+}
+.slideInLeft-leave-active,
+.slideInRight-leave-active {
+  transition: transform 350ms cubic-bezier(0.77, 0.16, 0.97, 0.7);
+}
+.slideInLeft-enter,
+.slideInLeft-leave-to {
+  transform: translateX(-140%);
+}
+.slideInRight-enter,
+.slideInRight-leave-to {
+  transform: translateX(140%);
+}

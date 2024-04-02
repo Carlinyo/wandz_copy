@@ -1,0 +1,14 @@
+@import '../colors/background.module.scss';
+@import '../borders/borders.scss';
+@import '../corners/corners.scss';
+@import '../shadows/shadows.scss';
+
+.element-container {
+  width: calc(100% - 24px - 24px - 1px - 1px);
+  height: calc(100% - 24px - 24px - 1px - 1px);
+  padding: 24px;
+  background-color: $bg-element;
+  border: $border;
+  border-radius: $border-radius-medium;
+  box-shadow: $default-shadow;
+}

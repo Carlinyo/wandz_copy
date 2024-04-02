@@ -1,0 +1,103 @@
+$data-red-tomato: #e95d5d !default;
+$data-red-tomato-light: #f9e6e6 !default;
+$data-pink-pitaya: #f797d6 !default;
+$data-pink-pitaya-light: #fde7f6 !default;
+$data-orange-carrot: #fbc067 !default;
+$data-orange-carrot-light: #fef1de !default;
+$data-yellow-banana: #ffe783 !default;
+$data-yellow-banana-light: #fff7d5 !default;
+$data-green-apple: #8bcf75 !default;
+$data-green-apple-light: #edf9e6 !default;
+$data-azure-sky: #85e3f6 !default;
+$data-azure-sky-light: #e6f8f9 !default;
+$data-blue-orchid: #638cf4 !default;
+$data-blue-orchid-50-opacity: #b4c5f5 !default;
+$data-blue-orchid-light: #e2eafd !default;
+$data-blue-orchid-light-gradient: #f5f8ff !default;
+$data-purple-eggplant: #b170c2 !default;
+$data-purple-eggplant-light: #f1e6f4 !default;
+
+.data-red-tomato {
+  color: $data-red-tomato;
+}
+
+.data-red-tomato-light {
+  color: $data-red-tomato-light;
+}
+
+.data-pink-pitaya {
+  color: $data-pink-pitaya;
+}
+
+.data-pink-pitaya-light {
+  color: $data-pink-pitaya-light;
+}
+
+.data-orange-carrot {
+  color: $data-orange-carrot;
+}
+
+.data-orange-carrot-light {
+  color: $data-orange-carrot-light;
+}
+
+.data-yellow-banana {
+  color: $data-yellow-banana;
+}
+
+.data-yellow-banana-light {
+  color: $data-yellow-banana-light;
+}
+
+.data-green-apple {
+  color: $data-green-apple;
+}
+
+.data-green-apple-light {
+  color: $data-green-apple-light;
+}
+
+.data-azure-sky {
+  color: $data-azure-sky;
+}
+
+.data-azure-sky-light {
+  color: $data-azure-sky-light;
+}
+
+.data-blue-orchid {
+  color: $data-blue-orchid;
+}
+
+.data-blue-orchid-light {
+  color: $data-blue-orchid-light;
+}
+
+.data-purple-eggplant {
+  color: $data-purple-eggplant;
+}
+
+.data-purple-eggplant-light {
+  color: $data-purple-eggplant-light;
+}
+
+:export {
+  dataBlueOrchid: $data-blue-orchid;
+  dataBlueOrchidLight: $data-blue-orchid-light;
+  dataBlueOrchid50Opacity: $data-blue-orchid-50-opacity;
+  dataBlueOrchidLightGradient: $data-blue-orchid-light-gradient;
+  dataAzureSky: $data-azure-sky;
+  dataAzureSkyLight: $data-azure-sky-light;
+  dataPurpleEggplant: $data-purple-eggplant;
+  dataPurpleEggplantLight: $data-purple-eggplant-light;
+  dataGreenApple: $data-green-apple;
+  dataGreenAppleLight: $data-green-apple-light;
+  dataPinkPitaya: $data-pink-pitaya;
+  dataPinkPitayaLight: $data-pink-pitaya-light;
+  dataOrangeCarrot: $data-orange-carrot;
+  dataOrangeCarrotLight: $data-orange-carrot-light;
+  dataRedTomato: $data-red-tomato;
+  dataRedTomatoLight: $data-red-tomato-light;
+  dataYellowBanana: $data-yellow-banana;
+  dataYellowBananaLight: $data-yellow-banana-light;
+}
